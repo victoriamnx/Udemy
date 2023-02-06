@@ -12,4 +12,4 @@ console.log('Passo #2'); // mais um exemplo de console.log
 * linhas 
 */
 
-console.log('Passo #2');
+console.log('Passo #3');
