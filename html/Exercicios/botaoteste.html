@@ -1,28 +1,25 @@
-<h1>Funcionou!!!</h1>
-<h1>
-    Vamos testar novamente.
-</h1>
-<h1>Eu apareci?</h1>
+<!DOCTYPE html>
+<html>
 <head>
 	<title>Botão Animado em HTML e CSS</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
-       .button {
+		.button {
 			display: inline-block;
 			padding: 10px 20px;
 			font-size: 18px;
 			font-weight: bold;
-			color: #000000;
-			background-color:  #ffddec;
+			color: #fff;
+			background-color: #007bff;
 			border-radius: 25px;
-			box-shadow: 0px 5px 0px  #ffddec;
+			box-shadow: 0px 5px 0px #0056b3;
 			transition: all 0.3s ease-in-out;
 		}
 
 		.button:hover {
-			background-color:  #ffddec;
-			box-shadow: 0px 8px 0px #f59ed8;
+			background-color: #0056b3;
+			box-shadow: 0px 8px 0px #003c80;
 			transform: translateY(-3px);
 		}
 	</style>
@@ -31,6 +28,6 @@
     <script src="script.js"></script>
     <button class="button" onclick="mostrarMensagem('Show!! Tudo funcionando perfeitamente.')">SIM</button>
     <button class="button" onclick="mostrarMensagem('Não, que pena vamos cuidar disso!')">NÃO</button>
-    <p style="font-weight: bold;" id="mensagem"></p>
+    <p id="mensagem"></p>
 </body>
-</body>
+</html>
