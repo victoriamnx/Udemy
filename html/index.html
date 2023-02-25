@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang:"en">
-<head> 
+
+<head>
     <meta charset="UTF-8">
     <meta name:"viewport" content="width=device-with, initial-scale=0.1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="umPoucodeCSS.css"/> 
+    <link rel="stylesheet" href="umPoucodeCSS.css" />
     <title>Exercicios HTML</title>
-    <style> 
-    #conteudo {
-        padding: 30px 0px;
-    }
+    <style>
+        #conteudo {
+            padding: 30px 0px;
+        }
     </style>
 </head>
-<body> 
-    <header> 
-        <h1>Exercicios HTML</h1>
+
+<body>
+    <header>
+        <h1>Exercícios HTML</h1>
     </header>
-    <nav> 
+    <nav>
         <a href wm-nav="exercicios/teste.html"> 00 - Teste</a> ・
         <a href wm-nav="exercicios/texto1.html"> 01 - Texto 1</a> ・
         <a href wm-nav="exercicios/texto2.html"> 02 - Texto 2</a> ・
@@ -27,16 +29,17 @@
         <a href wm-nav="exercicios/imagens.html"> 08 - Imagens</a> ・
         <a href wm-nav="exercicios/video.html"> 09 - Vídeo</a> ・
         <a href wm-nav="exercicios/tagsNaoVisuais.html"> 10 - Tags Não Visuais</a> ・
+        <a href wm-nav="exercicios/testeDeBotao.html"> 11 - Teste de Botão</a> ・
     </nav>
     <section id="conteudo"></section>
-    <footer> 
+    <footer>
         Curso de Web Moderno
     </footer>
     <script>
         document.querySelectorAll('[wm-nav]').forEach(link => {
             const conteudo = document.getElementById('conteudo')
 
-            link.onclick = function(e) {
+            link.onclick = function (e) {
                 e.preventDefault()
                 fetch(link.getAttribute('wm-nav'))
                     .then(resp => resp.text())
@@ -44,5 +47,7 @@
             }
         })
     </script>
+     <script src="./Exercicios/script.js"></script>
 </body>
-</html> 
+
+</html>
