@@ -8,7 +8,7 @@ console.log(precoComDesconto);
 let nome = "Caderno"; // String (Texto) -> Sequencia de símbolos
 let categoria = "Papelaria";
 console.log(
-    "Produto: " +
+  "Produto: " +
     nome +
     ", Categoria: " +
     categoria +
