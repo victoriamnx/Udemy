@@ -5,7 +5,7 @@ let desconto = 0.4;
 let precoComDesconto = preco * (1 - desconto);
 console.log(precoComDesconto);
 
-let nome = "Caderno"; // String (Texto) -> Sequencia de símbolos
+let nome = "Caderno"; // String -> Sequencia de símbolos ou textos
 let categoria = "Papelaria";
 console.log(
   "Produto: " +
