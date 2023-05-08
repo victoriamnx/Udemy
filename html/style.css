@@ -33,7 +33,7 @@ header {
   margin-bottom: 30px;
 }
 
-ul {
+nav ul {
   overflow: hidden;
   padding: 1px 10px;
   margin-bottom: 5px;
@@ -43,11 +43,11 @@ ul {
   font-family: "Poppins", sans-serif;
 }
 
-li {
+nav li {
   float: left;
 }
 
-li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -55,7 +55,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
   background-color: #f59ed8;
 }
 
