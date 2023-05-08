@@ -18,6 +18,6 @@ Esse repositório é referente ao curso de Web Moderno da Udemy [https://www.ude
 - CSS
 - JavaScript
 
-# O que eu aprendi 
+# Aprendizado 
 
-In this challenge I put into practice my knowledge about the z-index function and tested a new type of hover.
+HTML e CSS, e no momento estou introduzindo o JavaScript nos meus estudos.
