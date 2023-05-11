@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
 
-A { color: #6b705c #a5a58d #b7b7a4 #ffe8d6 #ddbea9 #cb997e; }
+A {
+  color: #6b705c #a5a58d #b7b7a4 #ffe8d6 #ddbea9 #cb997e;
+}
 
 * {
   margin: 0;
@@ -13,6 +15,7 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
+  background-color: #a5a58d;
 }
 
 a {
@@ -31,10 +34,12 @@ li {
   padding: 10px;
   margin-bottom: 10px;
   color: #000000;
-  background-color: #a5a58d;
+  background-color: #6b705c;
 }
 
 .nav-links a {
+  font-size: 20px;
+  font-weight: 500;
   color: #000000;
 }
 
@@ -66,16 +71,15 @@ li {
 }
 
 .dropdown {
-  background-color: #a5a58d;
+  background-color: #6b705c;
   padding: 1em 0;
   position: absolute;
-  /*WITH RESPECT TO PARENT*/
+  top: 40px;
   display: none;
   border-radius: 8px;
-  top: 35px;
 }
 
-.dropdown li + li {
+.dropdown li+li {
   margin-top: 10px;
 }
 
