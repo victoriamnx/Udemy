@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
 
-A {color: #6b705c #a5a58d #b7b7a4 #ffe8d6 #ddbea9 #cb997e;}
+A { color: #6b705c #a5a58d #b7b7a4 #ffe8d6 #ddbea9 #cb997e; }
 
 * {
   margin: 0;
@@ -31,7 +31,7 @@ li {
   padding: 10px;
   margin-bottom: 10px;
   color: #000000;
-  background-color: #f59ed8;
+  background-color: #a5a58d;
 }
 
 .nav-links a {
@@ -49,9 +49,11 @@ li {
   font-size: 18px;
 }
 
+.nav-links a:hover,
 .menu li:hover {
+  color: #a5a58d;
   transition: 0.3s ease;
-  background-color: #ffddec;
+  background-color: #6b705c;
 }
 
 .menu li {
@@ -64,7 +66,7 @@ li {
 }
 
 .dropdown {
-  background-color: #f59ed8;
+  background-color: #a5a58d;
   padding: 1em 0;
   position: absolute;
   /*WITH RESPECT TO PARENT*/
@@ -84,7 +86,7 @@ li {
 }
 
 .dropdown li:hover {
-  background-color: #ffddec;
+  background-color: #6b705c;
 }
 
 .services:hover .dropdown {
