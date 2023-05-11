@@ -6,25 +6,35 @@
     <meta name:"viewport" content="width=device-with, initial-scale=0.1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" />
-    <title>Exercícios HTML</title>
+    <title>Udemy - Exercícios HTML</title>
 </head>
 
 <body>
-    <header>
-        <h1>Exercícios HTML</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href wm-nav="exercicios/teste.html">Teste</a></li>
-            <li><a href wm-nav="exercicios/texto1.html">Texto 1</a></li>
-            <li><a href wm-nav="exercicios/texto2.html">Texto 2</a></li>
-            <li><a href wm-nav="exercicios/listas.html">Listas</a></li>
-            <li><a href wm-nav="exercicios/links.html">Links</a></li>
-            <li><a href wm-nav="exercicios/tabela.html">Tabela</a></li>
-            <li><a href wm-nav="exercicios/form/form.html">Formulário</a></li>
-            <li><a href wm-nav="exercicios/imagens.html">Imagens</a></li>
-            <li><a href wm-nav="exercicios/video.html">Vídeo</a></li>
-            <li><a href wm-nav="exercicios/tagsNaoVisuais.html">Tags Não Visuais</a></li>
+    <nav class="navbar">
+        <div class="logo">Exercícios HTML</div>
+        <ul class="nav-links">
+            <div class="menu">
+                <li><a href wm-nav="exercicios/teste.html">Teste</a></li>
+                <li><a href wm-nav="exercicios/texto1.html">Texto 1</a></li>
+                <li><a href wm-nav="exercicios/texto2.html">Texto 2</a></li>
+                <li><a href wm-nav="exercicios/listas.html">Listas</a></li>
+                <li class="services">
+                    <a href="/">Services</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                        <li><a href="/">Dropdown 1 </a></li>
+                        <li><a href="/">Dropdown 2</a></li>
+                        <li><a href="/">Dropdown 2</a></li>
+                        <li><a href="/">Dropdown 3</a></li>
+                        <li><a href="/">Dropdown 4</a></li>
+                    </ul>
+                <li><a href wm-nav="exercicios/links.html">Links</a></li>
+                <li><a href wm-nav="exercicios/tabela.html">Tabela</a></li>
+                <li><a href wm-nav="exercicios/form/form.html">Formulário</a></li>
+                <li><a href wm-nav="exercicios/imagens.html">Imagens</a></li>
+                <li><a href wm-nav="exercicios/video.html">Vídeo</a></li>
+                <li><a href wm-nav="exercicios/tagsNaoVisuais.html">Tags Não Visuais</a></li>
+            </div>
         </ul>
     </nav>
     <section id="conteudo"></section>
@@ -45,6 +55,4 @@
     </script>
     <script src="./Exercicios/script.js"></script>
 </body>
-
-
 </html>

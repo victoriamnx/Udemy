@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
 
-a {
-  color: #6b705c #a5a58d #b7b7a4 #ffe8d6 #ddbea9 #cb997e;
-}
+A {color: #6b705c #a5a58d #b7b7a4 #ffe8d6 #ddbea9 #cb997e;}
 
 * {
   margin: 0;
@@ -10,83 +8,95 @@ a {
   box-sizing: border-box;
 }
 
-html,
 body {
-  font-family: "Poppins", sans-serif;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  border: 0;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-header {
   font-family: "Poppins", sans-serif;
-  padding: 1px 10px;
-  border-radius: 9px;
-  margin-top: 100px;
-  margin-bottom: 30px;
 }
 
-h1 {
-  display: block;
-  padding: 14px 16px;
+a {
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
 }
 
-nav {
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+li {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
-}
-
-nav ul {
-  overflow: hidden;
-  margin-bottom: 5px;
-  list-style-type: none;
-  background-color: #ffddec;
-  font-family: "Poppins", sans-serif;
-}
-
-nav li {
-  float: left;
-}
-
-nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav li a:hover:not(.active) {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #000000;
   background-color: #f59ed8;
+}
+
+.nav-links a {
+  color: #000000;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  transition: 0.3s ease;
+  background-color: #ffddec;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+.services {
+  position: relative;
+}
+
+.dropdown {
+  background-color: #f59ed8;
+  padding: 1em 0;
+  position: absolute;
+  /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: #ffddec;
+}
+
+.services:hover .dropdown {
+  display: block;
 }
 
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed; /* Set the navbar to fixed position */
-  bottom: 0; /* Position the navbar at the bottom of the page */
-  width: 100%; /* Full width */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   margin-bottom: 10px;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  color: hsl(0, 0%, 0%);
-  text-decoration: none;
 }
