@@ -11,7 +11,7 @@ const prod2 = {
   preco: "79,90",
 };
 
-// JSON String | JSON é um formato textual e não um objeto 
+// JSON String | JSON é um formato textual e não um objeto
 
 ('{ "nome": "Camisa Polo Preta", "Preço": 79,90}');
 
