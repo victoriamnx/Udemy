@@ -44,14 +44,8 @@ li {
 }
 
 .logo {
+  margin-left: 20px;
   font-size: 32px;
-}
-
-/* NAVBAR MENU */
-.menu {
-  display: flex;
-  gap: 1em;
-  font-size: 18px;
 }
 
 .nav-links a:hover,
@@ -61,11 +55,16 @@ li {
   background-color: #6b705c;
 }
 
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
 .menu li {
   padding: 5px 14px;
 }
 
-/* DROPDOWN MENU */
 .services {
   position: relative;
 }
